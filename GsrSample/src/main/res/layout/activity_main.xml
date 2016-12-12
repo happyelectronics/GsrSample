@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--android:layout_alignTop="@+id/textView3"-->
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="onTextClick"
+        android:text="@string/advert"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#0000FF" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/my_toolbar"
+        android:text="@string/status"
+        android:textSize="15sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/newBlue"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:text=""
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/ic_action_stop"
+        android:backgroundTint="@color/gray_bg"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5" />
+
+    <Button
+        android:id="@+id/buttonRecord"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/record"
+        android:textSize="7dp"
+        android:backgroundTint="@color/warning"
+        android:layout_alignTop="@+id/buttonStop"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actual_skin_resistance"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

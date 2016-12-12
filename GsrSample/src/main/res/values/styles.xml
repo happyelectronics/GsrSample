@@ -1,0 +1,26 @@
+<resources>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:windowBackground">@color/gray</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="background">@color/newBlue</item>
+        <item name="actionOverflowButtonStyle">@style/MyActionButtonOverFlow</item>
+
+    </style>
+
+    <style name="MyActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+
+
+    </style>
+
+    <style name="MyActionButtonOverFlow" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+
+    </style>
+
+    <style name="ThemeOverlay.YourApp" parent="ThemeOverlay.AppCompat.Light">
+
+    </style>
+
+</resources>

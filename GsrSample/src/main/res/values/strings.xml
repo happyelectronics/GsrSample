@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GsrSample</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_message">GSR History</string>
+    <string name="title_activity_preference">preference</string>
+    <string name="actual_skin_resistance">Actual Skin Resistance:</string>
+    <string name="status">Status:</string>
+    <string name="advert">Buy emotion meter here.</string>
+    <string name="permission_explation">Pleas allow the permissions, for saving and playing the records and recording the sound</string>
+</resources>

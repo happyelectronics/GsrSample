@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GsrSample/GsrSample.iml" filepath="$PROJECT_DIR$/GsrSample/GsrSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GsrSample-master.iml" filepath="$PROJECT_DIR$/GsrSample-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SerialHEAPIAndroid-release/SerialHEAPIAndroid-release.iml" filepath="$PROJECT_DIR$/SerialHEAPIAndroid-release/SerialHEAPIAndroid-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usbSerialForAndroid-release/usbSerialForAndroid-release.iml" filepath="$PROJECT_DIR$/usbSerialForAndroid-release/usbSerialForAndroid-release.iml" />
+    </modules>
+  </component>
+</project>
